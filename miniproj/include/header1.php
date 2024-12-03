@@ -1,0 +1,29 @@
+<?php require_once "scripts/session.php"; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <style>
+        nav a.nav-link {
+            color: #fff !important;
+        }
+        nav{
+            background-color: #00264e;
+        }
+    </style>
+
+    <title> ASMU Home Services</title>
+</head>
+
+<body>
+    <nav class="nav">
+    <a class="nav-link" href="index.php">Home</a>
+    <a class="nav-link" href="login.php">Login service provider</a>
+    
+    </nav>
